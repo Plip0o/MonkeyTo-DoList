@@ -1,35 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mokey To-Do List</title>
     <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
-    <title>Monkey To-Do List</title>
     <link rel="stylesheet" href="style.css">
-</head>
 <body>
 
-    <header>
-        <h1 class="title">Monkey To-Do List</h1><hr>
-    </header>
+    <main>
 
-    <form action="#">
-        <div  class="menu">
-            <h1>criar tarefas</h1>
-        </div>
+        <header>
+            <h1>Monkey To-Do List</h1>
+        </header>
+
+        <nav>
+            <button type="button" id="butexc">excluir</button>
+            <button type="button" id="butmais">mais</button>
+        </nav>
 
         <main>
-            <h1>minhas tarefas</h1>
-            <button type="button">minhas tarefas</button>
-            <button type="button">adicionar nova tarefa</button>
-            <button type="button">excluir tarefa</button>
-            <!-- colocar icones no lugar das frases -->
+            <input id="writeTask" type="text" placeholder="digite nova tarefa">
+            <button id="buttonadc">adicionar</button>
+            <ul></ul>
         </main>
-    
-        <div class="calendario">
-            <h1>calendario</h1>
-        </div>
-    </form>
+
+
+    </main>
     
     <script src="script.js"></script>
 </body>
