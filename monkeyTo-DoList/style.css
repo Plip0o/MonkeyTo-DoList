@@ -4,6 +4,8 @@ body{
     min-width: 400px;
     max-width: 8000px;
     margin: auto;
+    background: url(image/fundo.png);
+    
 }
 
 button#trêsbarrinhas{
@@ -24,11 +26,17 @@ div#menu{
 h1{
     font-size: 20px;
     padding: 10px;
-    margin: auto;
+    margin: 0px;
     width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #668150;
+}
+
+h1#inmenu{
+    color: #F5D9D0;
+    margin: auto;
 }
 
 button#buttontrespontos{
@@ -38,11 +46,11 @@ background-color: #ffffff00;
 
 div#blocoGeral{
     height: 120px;
-    background-color: #FFFFFFD0;
+    background-color: #754535f4;
     min-width: 200px;
     max-width: 700px;
     border: 1px solid black;
-    border-radius: 10px 0px;
+    border-radius: 10px ;
     margin: 10px auto;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.32);
 
@@ -51,7 +59,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 630px;
     margin: auto;
 }
 
@@ -66,9 +74,10 @@ div#areaadc{
 }
 
 input{
-    min-width: 400px;
-    max-width: 500px;
-    padding: 5px;
+    min-width: 130px;
+    max-width: 20px;
+    width: 100%;
+    padding: 8px 60px;
     border: 1px solid #b4b5bb;
     text-align: center;
     border-radius: 4px;
@@ -78,7 +87,7 @@ input{
 button#buttoncrieatetask{
     border-radius: 2px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
     border: 0px;
     border-radius: 5px;
     background-color: #E2E4EB;
@@ -95,3 +104,5 @@ button#buttoncrieatetask:active{
     transform: translateY(1px) scale(1);
    
 }
+
+
