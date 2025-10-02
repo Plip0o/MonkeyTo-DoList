@@ -4,8 +4,7 @@ body{
     min-width: 400px;
     max-width: 8000px;
     margin: auto;
-    background: url(image/fundo.png);
-    
+    background: url(image/fundo.png);  
 }
 
 button#trêsbarrinhas{
@@ -84,7 +83,7 @@ input{
     /* quero alinhar com o h1 de cima e mexer na responsividade que ta cagada */
 }
 
-button#buttoncrieatetask{
+button#addBtn{
     border-radius: 2px;
     cursor: pointer;
     transition: 0.3s ease;
@@ -98,11 +97,9 @@ button#buttoncrieatetask{
     
 }
 
-
-button#buttoncrieatetask:active{
+button#addBtn:active{
     background-color: #f2f5ff;
-    transform: translateY(1px) scale(1);
-   
+    transform: translateY(5px) scale(1);
 }
 
 
