@@ -1,0 +1,134 @@
+:root {
+    --gradient: linear-gradient(180deg, #FEF9F2 0%, #888682 100%);
+}
+
+html{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    /* display: flex;
+    flex-direction: column; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: var(--gradient);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    min-width: 400px;
+    max-width: 8000px;
+    margin: auto;
+
+}
+
+button#trêsbarrinhas {
+    cursor: pointer;
+    background-color: #ffffff00;
+    border: 0px;
+}
+
+button#trêsbarrinhas:active {
+    transform: translateY(1px) scale(1);
+}
+
+div#menu {
+    padding: 20px 0px 0px 0px;
+    display: flex;
+}
+
+h1 {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #615F5C;
+}
+
+h1#inmenu {
+    color: #615F5C;
+    margin: auto;
+}
+
+button#buttontrespontos {
+    border: 0px;
+    background-color: #ffffff00;
+}
+
+div#blocoGeral {
+    height: 120px;
+    background-color: #9E9B96;
+    min-width: 200px;
+    max-width: 700px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px auto;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.32);
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 630px;
+    margin: auto;
+}
+
+div#areaadc {
+    min-width: 200px;
+    max-width: 100%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+input {
+    min-width: 130px;
+    max-width: 20px;
+    width: 100%;
+    padding: 8px 60px;
+    border: 1px solid #b4b5bb;
+    text-align: center;
+    border-radius: 4px;
+}
+
+button#addBtn {
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #E2E4EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+button#addBtn:active {
+    background-color: #f2f5ff;
+    transform: translateY(5px) scale(1);
+}
+
+ul {
+    padding: 0px;
+    background-color: #f6f6f6;
+    margin: 20px 0px;
+}
+
+li {
+    background-color: #9E9B96;
+    border-radius: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    margin: 2px;
+}
